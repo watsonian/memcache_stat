@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "memcache_stat"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Ruby library that fetches and wraps memcached stats output.}
+    gem.description = %Q{Ruby library that fetches and wraps memcached stats output.}
     gem.email = "watsonian@gmail.com"
     gem.homepage = "http://github.com/watsonian/memcache_stat"
     gem.authors = ["watsonian"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency "memcache_do", ">= 0.1.1"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
