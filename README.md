@@ -49,7 +49,7 @@ By default, it connects to localhost:11211. If you need a different host or port
     get_misses                 Number of items that have been requested 
                                and not found
     evictions                  Number of valid items removed from cache                                                                           
-                               to free memory for new items                                                                                       
+                               to free memory for new items
     bytes_read                 Total number of bytes read by this server 
                                from network
     bytes_written              Total number of bytes sent by this server to 
